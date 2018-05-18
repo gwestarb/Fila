@@ -8,4 +8,8 @@ public interface Fila<T> {
 	
 	public T peek();
 	
+	public T retirar();
+	
+	public void liberar();
+	
 }
